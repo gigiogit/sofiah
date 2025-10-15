@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+Error: EPERM: operation not permitted, lstat 'C:\sites'
+    at Object.realpathSync (node:fs:2705:29)
+    at toRealPath (node:internal/modules/helpers:65:13)
+    at Function._findPath (node:internal/modules/cjs/loader:764:24)
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1235:27)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Program Files\iisnode\interceptor.js:210:1)
